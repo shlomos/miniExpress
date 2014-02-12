@@ -1,0 +1,252 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Solomon\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Solomon\\AppData\\Local\\Temp\\npm-5040-fTsdyvzW\\1392197305865-0.9846844498533756\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz
+13 verbose folder .
+14 info prepublish mini_express@0.1.2
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Solomon\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 2e4cebce-05865-0-9846844498533756-tmp-tgz tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz
+18 verbose lock tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz C:\Users\Solomon\AppData\Roaming\npm-cache\2e4cebce-05865-0-9846844498533756-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 2e4cebce-05865-0-9846844498533756-tmp-tgz tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz
+22 silly lockFile 2e4cebce-05865-0-9846844498533756-tmp-tgz tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz
+23 verbose tar unpack C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz
+24 silly lockFile 99081be0-05865-0-9846844498533756-package tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package
+25 verbose lock tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package C:\Users\Solomon\AppData\Roaming\npm-cache\99081be0-05865-0-9846844498533756-package.lock
+26 silly lockFile 2e4cebce-05865-0-9846844498533756-tmp-tgz tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz
+27 verbose lock tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz C:\Users\Solomon\AppData\Roaming\npm-cache\2e4cebce-05865-0-9846844498533756-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry proto.js
+32 silly gunzTarPerm modified mode [ 'proto.js', 438, 420 ]
+33 silly gunzTarPerm extractEntry load.js
+34 silly gunzTarPerm modified mode [ 'load.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry middleware.js
+36 silly gunzTarPerm modified mode [ 'middleware.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry miniExpress.js
+38 silly gunzTarPerm modified mode [ 'miniExpress.js', 438, 420 ]
+39 silly gunzTarPerm extractEntry Request.js
+40 silly gunzTarPerm modified mode [ 'Request.js', 438, 420 ]
+41 silly gunzTarPerm extractEntry Response.js
+42 silly gunzTarPerm modified mode [ 'Response.js', 438, 420 ]
+43 silly gunzTarPerm extractEntry Route.js
+44 silly gunzTarPerm modified mode [ 'Route.js', 438, 420 ]
+45 silly gunzTarPerm extractEntry settings.js
+46 silly gunzTarPerm modified mode [ 'settings.js', 438, 420 ]
+47 silly gunzTarPerm extractEntry tester.js
+48 silly gunzTarPerm modified mode [ 'tester.js', 438, 420 ]
+49 silly gunzTarPerm extractEntry doc.html
+50 silly gunzTarPerm modified mode [ 'doc.html', 438, 420 ]
+51 silly gunzTarPerm extractEntry NoPartner.txt
+52 silly gunzTarPerm modified mode [ 'NoPartner.txt', 438, 420 ]
+53 silly gunzTarPerm extractEntry listExample.zip
+54 silly gunzTarPerm modified mode [ 'listExample.zip', 438, 420 ]
+55 silly gunzTarPerm extractEntry http/IncomingMessage.js
+56 silly gunzTarPerm modified mode [ 'http/IncomingMessage.js', 438, 420 ]
+57 silly gunzTarPerm extractEntry http/miniHttp.js
+58 silly gunzTarPerm modified mode [ 'http/miniHttp.js', 438, 420 ]
+59 silly gunzTarPerm extractEntry http/parser.js
+60 silly gunzTarPerm modified mode [ 'http/parser.js', 438, 420 ]
+61 silly gunzTarPerm extractEntry http/ServerResponse.js
+62 silly gunzTarPerm modified mode [ 'http/ServerResponse.js', 438, 420 ]
+63 silly gunzTarPerm extractEntry readme.txt
+64 silly gunzTarPerm modified mode [ 'readme.txt', 438, 420 ]
+65 silly gunzTarPerm extractEntry www/calculator.js
+66 silly gunzTarPerm modified mode [ 'www/calculator.js', 438, 420 ]
+67 silly gunzTarPerm extractEntry www/prototype.js
+68 silly gunzTarPerm modified mode [ 'www/prototype.js', 438, 420 ]
+69 silly gunzTarPerm extractEntry www/index.js
+70 silly gunzTarPerm modified mode [ 'www/index.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry www/jquery-1.10.2.js
+72 silly gunzTarPerm modified mode [ 'www/jquery-1.10.2.js', 438, 420 ]
+73 silly gunzTarPerm extractEntry www/photo.jpg
+74 silly gunzTarPerm modified mode [ 'www/photo.jpg', 438, 420 ]
+75 silly gunzTarPerm extractEntry www/grampy.jpg
+76 silly gunzTarPerm modified mode [ 'www/grampy.jpg', 438, 420 ]
+77 silly gunzTarPerm extractEntry www/index.html
+78 silly gunzTarPerm modified mode [ 'www/index.html', 438, 420 ]
+79 silly gunzTarPerm extractEntry www/features.txt
+80 silly gunzTarPerm modified mode [ 'www/features.txt', 438, 420 ]
+81 silly gunzTarPerm extractEntry www/event-loop.txt
+82 silly gunzTarPerm modified mode [ 'www/event-loop.txt', 438, 420 ]
+83 silly gunzTarPerm extractEntry www/jquery-1.10.2.min.map
+84 silly gunzTarPerm modified mode [ 'www/jquery-1.10.2.min.map', 438, 420 ]
+85 silly gunzTarPerm extractEntry www/hapc.jpeg
+86 silly gunzTarPerm modified mode [ 'www/hapc.jpeg', 438, 420 ]
+87 silly gunzTarPerm extractEntry www/profile.html
+88 silly gunzTarPerm modified mode [ 'www/profile.html', 438, 420 ]
+89 silly gunzTarPerm extractEntry www/ex2.sshenz62.203843933.zip
+90 silly gunzTarPerm modified mode [ 'www/ex2.sshenz62.203843933.zip', 438, 420 ]
+91 silly gunzTarPerm extractEntry www/read.txt
+92 silly gunzTarPerm modified mode [ 'www/read.txt', 438, 420 ]
+93 silly gunzTarPerm extractEntry www/style.css
+94 silly gunzTarPerm modified mode [ 'www/style.css', 438, 420 ]
+95 silly gunzTarPerm extractEntry www/WWWex2.iml
+96 silly gunzTarPerm modified mode [ 'www/WWWex2.iml', 438, 420 ]
+97 silly lockFile 99081be0-05865-0-9846844498533756-package tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package
+98 silly lockFile 99081be0-05865-0-9846844498533756-package tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package
+99 silly lockFile 2e4cebce-05865-0-9846844498533756-tmp-tgz tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz
+100 silly lockFile 2e4cebce-05865-0-9846844498533756-tmp-tgz tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\tmp.tgz
+101 verbose tar pack [ 'C:\\Users\\Solomon\\AppData\\Roaming\\npm-cache\\mini_express\\0.1.2\\package.tgz',
+101 verbose tar pack   'C:\\Users\\Solomon\\AppData\\Local\\Temp\\npm-5040-fTsdyvzW\\1392197305865-0.9846844498533756\\package' ]
+102 verbose tarball C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+103 verbose folder C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package
+104 silly lockFile 99081be0-05865-0-9846844498533756-package tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package
+105 verbose lock tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package C:\Users\Solomon\AppData\Roaming\npm-cache\99081be0-05865-0-9846844498533756-package.lock
+106 silly lockFile edbc50c1-e-mini-express-0-1-2-package-tgz tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+107 verbose lock tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz C:\Users\Solomon\AppData\Roaming\npm-cache\edbc50c1-e-mini-express-0-1-2-package-tgz.lock
+108 silly lockFile 99081be0-05865-0-9846844498533756-package tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package
+109 silly lockFile 99081be0-05865-0-9846844498533756-package tar://C:\Users\Solomon\AppData\Local\Temp\npm-5040-fTsdyvzW\1392197305865-0.9846844498533756\package
+110 silly lockFile edbc50c1-e-mini-express-0-1-2-package-tgz tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+111 silly lockFile edbc50c1-e-mini-express-0-1-2-package-tgz tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+112 silly lockFile c9bafb34-cache-mini-express-0-1-2-package C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package
+113 verbose lock C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package C:\Users\Solomon\AppData\Roaming\npm-cache\c9bafb34-cache-mini-express-0-1-2-package.lock
+114 silly lockFile c9bafb34-cache-mini-express-0-1-2-package C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package
+115 silly lockFile c9bafb34-cache-mini-express-0-1-2-package C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package
+116 verbose tar unpack C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+117 silly lockFile 7733ab37-cache-mini-express-0-1-2-package tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package
+118 verbose lock tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package C:\Users\Solomon\AppData\Roaming\npm-cache\7733ab37-cache-mini-express-0-1-2-package.lock
+119 silly lockFile edbc50c1-e-mini-express-0-1-2-package-tgz tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+120 verbose lock tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz C:\Users\Solomon\AppData\Roaming\npm-cache\edbc50c1-e-mini-express-0-1-2-package-tgz.lock
+121 silly gunzTarPerm modes [ '755', '644' ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+124 silly gunzTarPerm extractEntry proto.js
+125 silly gunzTarPerm modified mode [ 'proto.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry load.js
+127 silly gunzTarPerm modified mode [ 'load.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry middleware.js
+129 silly gunzTarPerm modified mode [ 'middleware.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry miniExpress.js
+131 silly gunzTarPerm modified mode [ 'miniExpress.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry Request.js
+133 silly gunzTarPerm modified mode [ 'Request.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry Response.js
+135 silly gunzTarPerm modified mode [ 'Response.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry Route.js
+137 silly gunzTarPerm modified mode [ 'Route.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry settings.js
+139 silly gunzTarPerm modified mode [ 'settings.js', 438, 420 ]
+140 silly gunzTarPerm extractEntry tester.js
+141 silly gunzTarPerm modified mode [ 'tester.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry doc.html
+143 silly gunzTarPerm modified mode [ 'doc.html', 438, 420 ]
+144 silly gunzTarPerm extractEntry NoPartner.txt
+145 silly gunzTarPerm modified mode [ 'NoPartner.txt', 438, 420 ]
+146 silly gunzTarPerm extractEntry listExample.zip
+147 silly gunzTarPerm modified mode [ 'listExample.zip', 438, 420 ]
+148 silly gunzTarPerm extractEntry http/IncomingMessage.js
+149 silly gunzTarPerm modified mode [ 'http/IncomingMessage.js', 438, 420 ]
+150 silly gunzTarPerm extractEntry http/miniHttp.js
+151 silly gunzTarPerm modified mode [ 'http/miniHttp.js', 438, 420 ]
+152 silly gunzTarPerm extractEntry http/parser.js
+153 silly gunzTarPerm modified mode [ 'http/parser.js', 438, 420 ]
+154 silly gunzTarPerm extractEntry http/ServerResponse.js
+155 silly gunzTarPerm modified mode [ 'http/ServerResponse.js', 438, 420 ]
+156 silly gunzTarPerm extractEntry readme.txt
+157 silly gunzTarPerm modified mode [ 'readme.txt', 438, 420 ]
+158 silly gunzTarPerm extractEntry www/calculator.js
+159 silly gunzTarPerm modified mode [ 'www/calculator.js', 438, 420 ]
+160 silly gunzTarPerm extractEntry www/prototype.js
+161 silly gunzTarPerm modified mode [ 'www/prototype.js', 438, 420 ]
+162 silly gunzTarPerm extractEntry www/index.js
+163 silly gunzTarPerm modified mode [ 'www/index.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry www/jquery-1.10.2.js
+165 silly gunzTarPerm modified mode [ 'www/jquery-1.10.2.js', 438, 420 ]
+166 silly gunzTarPerm extractEntry www/photo.jpg
+167 silly gunzTarPerm modified mode [ 'www/photo.jpg', 438, 420 ]
+168 silly gunzTarPerm extractEntry www/grampy.jpg
+169 silly gunzTarPerm modified mode [ 'www/grampy.jpg', 438, 420 ]
+170 silly gunzTarPerm extractEntry www/index.html
+171 silly gunzTarPerm modified mode [ 'www/index.html', 438, 420 ]
+172 silly gunzTarPerm extractEntry www/features.txt
+173 silly gunzTarPerm modified mode [ 'www/features.txt', 438, 420 ]
+174 silly gunzTarPerm extractEntry www/event-loop.txt
+175 silly gunzTarPerm modified mode [ 'www/event-loop.txt', 438, 420 ]
+176 silly gunzTarPerm extractEntry www/jquery-1.10.2.min.map
+177 silly gunzTarPerm modified mode [ 'www/jquery-1.10.2.min.map', 438, 420 ]
+178 silly gunzTarPerm extractEntry www/hapc.jpeg
+179 silly gunzTarPerm modified mode [ 'www/hapc.jpeg', 438, 420 ]
+180 silly gunzTarPerm extractEntry www/profile.html
+181 silly gunzTarPerm modified mode [ 'www/profile.html', 438, 420 ]
+182 silly gunzTarPerm extractEntry www/ex2.sshenz62.203843933.zip
+183 silly gunzTarPerm modified mode [ 'www/ex2.sshenz62.203843933.zip', 438, 420 ]
+184 silly gunzTarPerm extractEntry www/read.txt
+185 silly gunzTarPerm modified mode [ 'www/read.txt', 438, 420 ]
+186 silly gunzTarPerm extractEntry www/style.css
+187 silly gunzTarPerm modified mode [ 'www/style.css', 438, 420 ]
+188 silly gunzTarPerm extractEntry www/WWWex2.iml
+189 silly gunzTarPerm modified mode [ 'www/WWWex2.iml', 438, 420 ]
+190 silly lockFile 7733ab37-cache-mini-express-0-1-2-package tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package
+191 silly lockFile 7733ab37-cache-mini-express-0-1-2-package tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package
+192 silly lockFile edbc50c1-e-mini-express-0-1-2-package-tgz tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+193 silly lockFile edbc50c1-e-mini-express-0-1-2-package-tgz tar://C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+194 verbose chmod C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz 644
+195 silly chown skipping for windows C:\Users\Solomon\AppData\Roaming\npm-cache\mini_express\0.1.2\package.tgz
+196 silly lockFile 3a52ce78- .
+197 silly lockFile 3a52ce78- .
+198 silly publish { name: 'mini_express',
+198 silly publish   version: '0.1.2',
+198 silly publish   description: 'A subset of express functionality',
+198 silly publish   author: { name: 'Shlomo Shenzis', email: 'il.shlomo@gmail.com' },
+198 silly publish   dependencies: {},
+198 silly publish   devDependencies: {},
+198 silly publish   engine: 'node >= 0.10.2',
+198 silly publish   readme: '////////////////////////Ex3 | Web-Server/part 1 | Shlomo Shenzis//////////////////\r\n//////////////////////////////////////////////////////////////////////////////////\r\nThe hardest part in this exercise were:\r\n1. Finding a way to parse the chunk in such a way that \r\n   parsing the body according to content-length would be easy and simple\r\n   as well as working in any situation.\r\n2. The implementation of parsing requests chunked into several messages.\r\n3. Implementing the parameterized routes (/public/:name/).\r\n4. Finiding a model to convert http\'s req,res into express req,res.\r\n\r\nThe fun part:\r\nIt was a very nice exercise and it was fun writing a WORKING http server on\r\nyour own. Seeing the result, as my server (well...) served my ex2 website was\r\nreally nice, but seeing it serving dynamic pages and storing data was amazing.\r\n\r\nThe optimization:\r\nIn order to make the server efficient I made a few optimizations:\r\n1)Small files are written to the socket directly (i.e. buffered fully from the \r\nsystem, WHEREAS, large files are read in const. chunks from the system and piped\r\nto the socket. This behaviour radically reduces the amount of memory the\r\nserver needs to process a request, meaning the server can work under much higher\r\nload!\r\n\r\n!!! - You can set the minimum file size for piping by changing MAX_FILE_BUFFER\r\n\t  in settings.js - !!!!\r\n\r\n2)the parser makes as little as possible\r\npasses over the message as a whole (i.e. no split of the whole message, but\r\niteration over it.\r\nThe server does I/O operations in an asynchronous manner to let the CPU parse the request\r\nnon-stop.\r\n\r\n3)The server is fully RESTful, by communicating solely by HTTP and not saving any information\r\nabout the clients.\r\n\r\nThe "hacker" handles:\r\nIn order to perform a DOS attack on the server by adding handles we could:\r\n1. This function would be started for the directed request and will never end\r\n   not letting other requests be spawned. \r\n\tapp.use(\'/hello/hacker\',function(req,res,next){\r\n\t\twhile(true){\r\n\t\t\tconsole.log(\'Pwned!\');\r\n\t\t}\r\n\t});\r\n2. This function, will just terminate the connection to any client sending requests to the server.\r\n\tapp.use(\'/hello/hacker\',function(req,res,next){\r\n\t\tres.shouldKeepAlive = false;\r\n\t\tres.end();\r\n\t});\r\n3.\tOther methods could include massive reading/writing to/from filesystem (using fs module)\r\n\tfinishing the physical memory of the machine or manipulating the filesystem (deleting important files of OS/Server).\r\n\t\r\n\tTo make my handles be executed I would put them first in the stack. This way no other\r\n\thandler has the chance to manipulate the request before me and send()/json() ending the execution\r\n\tof the stack.\r\n\r\n////////////////////////////////////Use Instructions//////////////////////////////////////////\r\nBefore running the server you can set preferences in settings.js file.\r\n\r\nDIR_INDEX_NAME -  lets you define the webserver directory index file.\r\nThe default value is \'index.html\'.\r\n\r\nMAX_FILE_BUFFER - lets you set the minimum file size to force the webserver \r\npipe data in chunks from the disk. (default is 5000 bytes)\r\n \r\nRunning example is given in tester.js\r\n///////////////////////////////////////Notice/////////////////////////////////////////////////\r\nAll node\'s HTTP Server - side API was implemented in the miniHttp module including inheritance \r\nproperties.\r\n////////////////////////////////////Files Included////////////////////////////////////////////\r\n - root:\r\nminiExpress.js\r\nRequest.js\r\nResponse.js\r\nRoute.js\r\nproto.js\r\nmiddleware.js\r\nsettings.js\r\nload.js\r\ntester.js\r\nNoPartner.txt\r\nreadme.txt\r\ndoc.html\r\n -http:\r\n\tIncomingMessage.js\r\n\tServerResponse.js\r\n\tparser.js\r\n\tminiHttp.js\r\n - www:\r\n\tindex.html\r\n\tjquery-1.10.2.min.map\r\n\tjquery-1.10.2.js\r\n\tindex.js\r\n\tstyle.css\r\n\tcalculator.js\r\n\tphoto.jpg\r\n\thapc.jpeg\r\n\tgrampy.jpg\r\n\tprototype.js\r\n\tevent-loop.txt\r\n\tfeatures.txt\r\n\tread.txt\r\n//////////////////////////////////////////////////////////////////////////////////////////////\r\n',
+198 silly publish   readmeFilename: 'readme.txt',
+198 silly publish   _id: 'mini_express@0.1.2',
+198 silly publish   dist: { shasum: '7c5a5b6e71ce3edaf4726a6449bffb5f3d56e831' },
+198 silly publish   _from: '.' }
+199 verbose url raw mini_express
+200 verbose url resolving [ 'https://registry.npmjs.org/', './mini_express' ]
+201 verbose url resolved https://registry.npmjs.org/mini_express
+202 info trying registry request attempt 1 at 11:28:26
+203 http PUT https://registry.npmjs.org/mini_express
+204 http 409 https://registry.npmjs.org/mini_express
+205 verbose url raw mini_express
+206 verbose url resolving [ 'https://registry.npmjs.org/', './mini_express' ]
+207 verbose url resolved https://registry.npmjs.org/mini_express
+208 info trying registry request attempt 1 at 11:28:28
+209 http GET https://registry.npmjs.org/mini_express
+210 http 200 https://registry.npmjs.org/mini_express
+211 error publish fail Cannot publish over existing version.
+211 error publish fail Update the 'version' field in package.json and try again.
+211 error publish fail
+211 error publish fail If the previous version was published in error, see:
+211 error publish fail     npm help unpublish
+211 error publish fail
+211 error publish fail To automatically increment version numbers, see:
+211 error publish fail     npm help version
+212 error System Windows_NT 6.1.7601
+213 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+214 error cwd C:\Users\Solomon\Desktop\Ex4-Fixed
+215 error node -v v0.10.22
+216 error npm -v 1.3.14
+217 error code EPUBLISHCONFLICT
+218 verbose exit [ 1, true ]
